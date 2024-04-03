@@ -12,3 +12,9 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+try{
+  let profile = await getJohnProfile();
+  console.log(profile);
+}catch(e){
+  console.log(e);
+}
