@@ -33,3 +33,7 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+let profile = await getJohnProfile();
+console.log(profile);
+let orders = await getJohnOrders();
+console.log(orders);
